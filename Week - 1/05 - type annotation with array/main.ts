@@ -13,7 +13,7 @@ varOne = true;
 
 /* -------------- */
 
-// string or number or boolean data type يمكن لك تديكلاري بلي شي باغي من شي متغير يقبل
+// string or number or boolean data type يمكن لك تديكلاري بلي باغي من شي متغير يقبل
 let varTwo: (string | number | boolean) = "mohamed";
 
 varTwo = 100;
