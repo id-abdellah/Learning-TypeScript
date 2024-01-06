@@ -14,6 +14,7 @@ let article: [number, string, boolean];
 
 article = [100, "Title One", true];
 
+// المعنية method ولكن يمكن ليك تضيف للمصفوفة عناصر جداد باستعمال ال
 article.push(50)
 
 console.log(article); // [ 100, 'Title One', true, 50 ]
