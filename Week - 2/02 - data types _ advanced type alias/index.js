@@ -20,3 +20,13 @@ getActions({
     city: "layyoune city",
     employee: false
 });
+/*
+    Output
+
+    the value of name is: mohamed
+    the value of lastName is: id-abdellah
+    the value of country is: morocco
+    the value of age is: 20
+    the value of city is: layyoune city
+    the value of employee is: false
+*/ 

@@ -12,20 +12,6 @@
                 - there is a string based enums
                 - there Heterogenous enums [string + number]
 */
-// ل ثوابت مرتبطة ببعض group انها كتخليك دير enums فكرة ال
-// مثلا عندك اللعبة ديال سرعة الكتابة, فهي فيها مستويات كل مستوى فيه عدد ثواني معين لمكتبتيش الكلمة فديك المدة كتخسر
-// دوك المستويات كدير كل واحد ك ثابت فيه عدد الثواني المعنية
-// enums كاينة 3 دلانواع ديال ال
-// Numeric, string, heterogenous enums
-// وكيتم طالع 0 فحالة مدرتيش قيم كيبدا اللولة ب قيمة
-// اولا لدرتي اللولة شي قيمة مثلا ف لوخرين غيبداو من ديك القيمة ويتمو طالعين
-var Levels;
-(function (Levels) {
-    Levels[Levels["Kid"] = 0] = "Kid";
-    Levels[Levels["Easy"] = 1] = "Easy";
-    Levels[Levels["Medium"] = 2] = "Medium";
-    Levels[Levels["Hard"] = 3] = "Hard";
-})(Levels || (Levels = {}));
 console.log(0 /* Levels.Kid */); // 0
 console.log(1 /* Levels.Easy */); // 1
 console.log(2 /* Levels.Medium */); // 2

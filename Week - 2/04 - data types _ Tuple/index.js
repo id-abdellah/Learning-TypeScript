@@ -10,5 +10,10 @@
 // error لتحت مغيخليكش وغيطلع ليك array article فحالة حاولتي تزيد على ال
 let article;
 article = [100, "Title One", true];
+// المعنية method ولكن يمكن ليك تضيف للمصفوفة عناصر جداد باستعمال ال
 article.push(50);
-console.log(article);
+console.log(article); // [ 100, 'Title One', true, 50 ]
+// Readonly
+// لي غتقاد فقط للقرائة array وهي انك كتخلي ال
+let readonlyArticleArray = [200, "Ttile two", false];
+// readonlyArticleArray.push(200) // => error
